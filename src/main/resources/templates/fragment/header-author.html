@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<header th:fragment="navbarAuthor (aktif)" class="header clearfix element_to_stick">
+	    <div class="layer"></div><!-- Opacity Mask Menu Mobile -->
+	    <div class="container">
+	        <div class="logo">
+	            <a href="index">
+	                <img src="img/logobener.png" alt="" width="140" height="35">
+	            </a>
+	        </div>
+	        <ul class="top_menu">
+	            <li>
+                    <a href="connect-wallet" class="btn_access">
+                        <i class="ri-wallet-3-line"></i>
+                        Connect Wallet
+                    </a>
+                </li>
+				<li><a href="login" class="btn_access">Log Out</a></li>
+	        </ul>
+	        <!-- /top_menu -->
+	        <a href="#0" class="open_close">
+	            <i class="bi bi-list"></i><span>Menu</span>
+	        </a>
+	        <nav class="main-menu">
+	            <div id="header_menu">
+	                <a href="#0" class="open_close">
+	                    <i class="bi bi-x"></i>
+	                </a>
+	                <a href="index-author"><img src="img/logo-placeholder.png" data-src="img/logo.svg" width="120" height="30" alt="" class="lazy"></a>
+	            </div>
+	            <ul>
+	                <li>
+	                    <a href="index-author" class="show-submenu">Home</a>
+	                </li>
+	                <li>
+	                    <a href="explore-author" class="show-submenu">Explore</a>
+	                </li>
+	                <li class="submenu">
+	                    <a href="author" class="show-submenu">Author page</a>
+	                    <ul>
+	                        <li><a href="become-author">Become an Author</a></li>
+	                        <li><a href="author-edit-profile">Edit profile</a></li>
+	                        <li><a href="account-settings">Account Settings</a></li>
+	                    </ul>
+	                </li>
+                    <li><a href="upload-artwork">Upload Artwork</a></li>
+                    <li>
+                        <a href="contacts-author">Contacts</a>
+                    </li>
+                    <li><a href="help-author">Help and Faq</a></li>
+	            </ul>
+	        </nav>
+	    </div>
+	</header>
+
+</body>
+</html>

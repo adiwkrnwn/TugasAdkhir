@@ -9,7 +9,7 @@
     <title>OpenStory - NFT Marketplace Website Template</title>
 
     <!-- FAVICONS-->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logotittle.png" type="image/x-icon">
     <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
@@ -39,18 +39,18 @@
 	    <div class="layer"></div><!-- Opacity Mask Menu Mobile -->
 	    <div class="container">
 	        <div class="logo">
-	            <a href="index.html">
-	                <img src="img/logo.svg" alt="" width="140" height="35">
+	            <a href="index">
+	                <img src="img/logobener.png" alt="" width="135" height="35">
 	            </a>
 	        </div>
 	        <ul class="top_menu">
                 <li>
-                    <a href="connect-wallet.html" class="btn_access">
+                    <a href="connect-wallet" class="btn_access">
                         <i class="ri-wallet-3-line"></i>
                         Connect Wallet
                     </a>
                 </li>
-	            <li><a href="login.html" class="btn_access">Log Out</a></li>
+	            <li><a href="login" class="btn_access">Log Out</a></li>
 	        </ul>
 	        <!-- /top_menu -->
 	        <a href="#0" class="open_close">
@@ -61,29 +61,29 @@
 	                <a href="#0" class="open_close">
 	                    <i class="bi bi-x"></i>
 	                </a>
-	                <a href="index.html"><img src="img/logo-placeholder.png" data-src="img/logo.svg" width="120" height="30" alt="" class="lazy"></a>
+	                <a href="index"><img src="img/logo-placeholder.png" data-src="img/logo.svg" width="120" height="30" alt="" class="lazy"></a>
 	            </div>
 	            <ul>
 	                <li class="submenu">
-	                    <a href="index-author.html" class="show-submenu">Home</a>
+	                    <a href="index-author" class="show-submenu">Home</a>
 	                </li>
 	                <li class="submenu">
-	                    <a href="explor-author.html" class="show-submenu">Explore</a>
+	                    <a href="explore-author" class="show-submenu">Explore</a>
 	                </li>
                     <li class="submenu">
-	                    <a href="author.html" class="show-submenu">Author page</a>
+	                    <a href="author" class="show-submenu">Author page</a>
 	                    <ul>
-	                        <li><a href="become-author.html">Become an Author</a></li>
-	                        <li><a href="author-edit-profile.html">Edit profile</a></li>
-	                        <li><a href="account-settings.html">Account Settings</a></li>
+	                        <li><a href="become-author">Become an Author</a></li>
+	                        <li><a href="author-edit-profile">Edit profile</a></li>
+	                        <li><a href="account-settings">Account Settings</a></li>
 	                    </ul>
 	                </li>
-                    <li><a href="upload-artwork.html">Upload Artwork</a></li>
+                    <li><a href="upload-artwork">Upload Artwork</a></li>
                     <li>
 	                <li class="submenu">
-	                    <a href="contacts-author.html" class="show-submenu">Contacts</a>
+	                    <a href="contacts-author" class="show-submenu">Contacts</a>
 	                </li>
-	                <li><a href="help-author.html">Help and Faq</a></li>
+	                <li><a href="help-author">Help and Faq</a></li>
 	            </ul>
 	        </nav>
 	    </div>
@@ -97,9 +97,8 @@
 	            <div class="pb-3 clearfix">
 	                <div class="custom_select">
 	                    <select name="sort" id="sort">
-	                        <option value="popularity" selected="selected">Sort by Popularity</option>
-	                        <option value="rating">Sort by Newness</option>
-	                        <option value="date">Sort by Trending</option>
+	                        <option value="popularity" selected="selected">Sort by Lowest price</option>
+	                        <option value="date">Sort by highest price</option>
 	                    </select>
 	                </div>
 	                <a href="#0" class="open_filters btn_filters"><i class="bi bi-filter"></i><span>Filters</span></a>
@@ -218,39 +217,9 @@
 	                        </div>
 	                    </div>
 	                    <!-- /filter_type -->
-	                    <div class="filter_type">
-	                        <h4><a href="#filter_3" data-bs-toggle="collapse" class="closed">Price</a></h4>
-	                        <div class="collapse" id="filter_3">
-	                            <div class="range_input">Price range from 0 to <span></span> ETH</div>
-	                            <div class="mb-4"><input type="range" min="0" max="100" step="0.2" value="4" data-orientation="horizontal"></div>
-	                        </div>
-	                    </div>
+	                    <!--  price -->
 	                    <!-- /filter_type -->
-	                    <div class="filter_type">
-	                        <h4><a href="#filter_4" data-bs-toggle="collapse" class="closed">Status</a></h4>
-	                        <div class="collapse" id="filter_4">
-	                            <ul>
-	                                <li>
-	                                    <label class="container_radio">Buy Now<small>11</small>
-	                                        <input type="radio" name="filter_4">
-	                                        <span class="checkmark"></span>
-	                                    </label>
-	                                </li>
-	                                <li>
-	                                    <label class="container_radio">On Auction<small>08</small>
-	                                        <input type="radio" name="filter_4">
-	                                        <span class="checkmark"></span>
-	                                    </label>
-	                                </li>
-	                                <li>
-	                                    <label class="container_radio">Has Offers<small>05</small>
-	                                        <input type="radio" name="filter_4">
-	                                        <span class="checkmark"></span>
-	                                    </label>
-	                                </li>
-	                            </ul>
-	                        </div>
-	                    </div>
+	                   
 	                    <!-- /filter_type -->
 	                    <div class="buttons">
 	                        <a href="#0" class="btn_1 full-width outline">Filter</a>
@@ -265,7 +234,7 @@
 	                            <figure>
 	                                <a href="#modal-dialog" class="btn_1 modal_popup">Place a bid</a>
 	                                <img src="img/items/item-1-placeholder.png" data-src="img/items/item-1.jpg" class="lazy" alt="" width="533" height="400">
-	                                <a href="detail-page.html" class="strip_info">
+	                                <a href="detail-page" class="strip_info">
 	                                    <div class="item_title">
 	                                        <h3>Amazing Art</h3>
 	                                        <small>3.25 ETH</small>
@@ -274,7 +243,7 @@
 	                            </figure>
 	                            <ul>
 	                                <li>
-	                                    <a href="author.html" class="author">
+	                                    <a href="author" class="author">
 	                                        <div class="author_thumb veryfied"><i class="bi bi-check"></i>
 	                                            <figure>
 	                                                <img src="img/avatar-placeholder.png" data-src="img/avatar2.jpg" alt="" class="lazy" width="100" height="100"></figure>
@@ -283,7 +252,7 @@
 	                                    </a>
 	                                </li>
 	                                <li>
-	                                    <a href="#0" class="wish_bt"><i class="bi bi-heart-fill"></i></a> 50
+	                                    
 	                                </li>
 	                            </ul>
 	                        </div>
@@ -295,7 +264,7 @@
 	                            <figure>
 	                                <a href="#modal-dialog" class="btn_1 modal_popup">Place a bid</a>
 	                                <img src="img/items/item-1-placeholder.png" data-src="img/items/item-2.gif" class="lazy" alt="" width="400" height="400">
-	                                <a href="detail-page.html" class="strip_info">
+	                                <a href="detail-page" class="strip_info">
 	                                    <div class="item_title">
 	                                        <h3>Facing Art</h3>
 	                                        <small>1.25 ETH</small>
@@ -304,7 +273,7 @@
 	                            </figure>
 	                            <ul>
 	                                <li>
-	                                    <a href="author.html" class="author">
+	                                    <a href="author" class="author">
 	                                        <div class="author_thumb veryfied"><i class="bi bi-check"></i>
 	                                            <figure>
 	                                                <img src="img/avatar-placeholder.png" data-src="img/avatar4.jpg" alt="" class="lazy" width="100" height="100"></figure>
@@ -313,7 +282,7 @@
 	                                    </a>
 	                                </li>
 	                                <li>
-	                                    <a href="#0" class="wish_bt"><i class="bi bi-heart-fill"></i></a> 50
+	                                    
 	                                </li>
 	                            </ul>
 	                        </div>
@@ -324,7 +293,7 @@
 	                            <figure>
 	                                <a href="#modal-dialog" class="btn_1 modal_popup">Place a bid</a>
 	                                <img src="img/items/item-1-placeholder.png" data-src="img/items/item-3.jpg" class="lazy" alt="" width="533" height="400">
-	                                <a href="detail-page.html" class="strip_info">
+	                                <a href="detail-page" class="strip_info">
 	                                    <div class="item_title">
 	                                        <h3>Blue sea pain</h3>
 	                                        <small>0.25 ETH</small>
@@ -333,7 +302,7 @@
 	                            </figure>
 	                            <ul>
 	                                <li>
-	                                    <a href="author.html" class="author">
+	                                    <a href="author" class="author">
 	                                        <div class="author_thumb veryfied"><i class="bi bi-check"></i>
 	                                            <figure>
 	                                                <img src="img/avatar-placeholder.png" data-src="img/avatar3.jpg" alt="" class="lazy" width="100" height="100"></figure>
@@ -342,7 +311,7 @@
 	                                    </a>
 	                                </li>
 	                                <li>
-	                                    <a href="#0" class="wish_bt"><i class="bi bi-heart-fill"></i></a> 50
+	                                    
 	                                </li>
 	                            </ul>
 	                        </div>
@@ -354,7 +323,7 @@
 	                            <figure>
 	                                <a href="#modal-dialog" class="btn_1 modal_popup">Place a bid</a>
 	                                <img src="img/items/item-1-placeholder.png" data-src="img/items/item-4.jpg" class="lazy" alt="" width="533" height="400">
-	                                <a href="detail-page.html" class="strip_info">
+	                                <a href="detail-page" class="strip_info">
 	                                    <div class="item_title">
 	                                        <h3>Abstraction</h3>
 	                                        <small>2.45 ETH</small>
@@ -363,7 +332,7 @@
 	                            </figure>
 	                            <ul>
 	                                <li>
-	                                    <a href="author.html" class="author">
+	                                    <a href="author" class="author">
 	                                        <div class="author_thumb">
 	                                            <figure>
 	                                                <img src="img/avatar-placeholder.png" data-src="img/avatar1.jpg" alt="" class="lazy" width="100" height="100"></figure>
@@ -372,7 +341,7 @@
 	                                    </a>
 	                                </li>
 	                                <li>
-	                                    <a href="#0" class="wish_bt"><i class="bi bi-heart-fill"></i></a> 50
+	                                    
 	                                </li>
 	                            </ul>
 	                        </div>
@@ -383,9 +352,9 @@
 	                            <figure>
 	                                <a href="#modal-dialog" class="btn_1 modal_popup">Place a bid</a>
 	                                <img src="img/items/item-1-placeholder.png" data-src="img/items/item-5.jpg" class="lazy" alt="" width="533" height="400">
-	                                <a href="author.html" class="author">
+	                                <a href="author" class="author">
 	                                </a>
-	                                <a href="detail-page.html" class="strip_info">
+	                                <a href="detail-page" class="strip_info">
 	                                    <div class="item_title">
 	                                        <h3>The Rain Forest</h3>
 	                                        <small>1.25 ETH</small>
@@ -394,7 +363,7 @@
 	                            </figure>
 	                            <ul>
 	                                <li>
-	                                    <a href="author.html" class="author">
+	                                    <a href="author" class="author">
 	                                        <div class="author_thumb veryfied"><i class="bi bi-check"></i>
 	                                            <figure>
 	                                                <img src="img/avatar-placeholder.png" data-src="img/avatar4.jpg" alt="" class="lazy" width="100" height="100"></figure>
@@ -403,7 +372,7 @@
 	                                    </a>
 	                                </li>
 	                                <li>
-	                                    <a href="#0" class="wish_bt"><i class="bi bi-heart-fill"></i></a> 50
+	                                    
 	                                </li>
 	                            </ul>
 	                        </div>
@@ -414,7 +383,7 @@
 	                            <figure>
 	                                <a href="#modal-dialog" class="btn_1 modal_popup">Place a bid</a>
 	                                <img src="img/items/item-1-placeholder.png" data-src="img/items/item-6.jpg" class="lazy" alt="" width="533" height="400">
-	                                <a href="detail-page.html" class="strip_info">
+	                                <a href="detail-page" class="strip_info">
 	                                    <div class="item_title">
 	                                        <h3>The King</h3>
 	                                        <small>0.34 ETH</small>
@@ -423,7 +392,7 @@
 	                            </figure>
 	                            <ul>
 	                                <li>
-	                                    <a href="author.html" class="author">
+	                                    <a href="author" class="author">
 	                                        <div class="author_thumb">
 	                                            <figure>
 	                                                <img src="img/avatar-placeholder.png" data-src="img/avatar1.jpg" alt="" class="lazy" width="100" height="100"></figure>
@@ -432,7 +401,7 @@
 	                                    </a>
 	                                </li>
 	                                <li>
-	                                    <a href="#0" class="wish_bt"><i class="bi bi-heart-fill"></i></a> 50
+	                                    
 	                                </li>
 	                            </ul>
 	                        </div>
@@ -443,7 +412,7 @@
 	                            <figure>
 	                                <a href="#modal-dialog" class="btn_1 modal_popup">Place a bid</a>
 	                                <img src="img/items/item-1-placeholder.png" data-src="img/items/item-7.gif" class="lazy" alt="" width="598" height="400">
-	                                <a href="detail-page.html" class="strip_info">
+	                                <a href="detail-page" class="strip_info">
 	                                    <div class="item_title">
 	                                        <h3>Driving to center</h3>
 	                                        <small>4.60 ETH</small>
@@ -452,7 +421,7 @@
 	                            </figure>
 	                            <ul>
 	                                <li>
-	                                    <a href="author.html" class="author">
+	                                    <a href="author" class="author">
 	                                        <div class="author_thumb veryfied"><i class="bi bi-check"></i>
 	                                            <figure>
 	                                                <img src="img/avatar-placeholder.png" data-src="img/avatar3.jpg" alt="" class="lazy" width="100" height="100"></figure>
@@ -461,7 +430,7 @@
 	                                    </a>
 	                                </li>
 	                                <li>
-	                                    <a href="#0" class="wish_bt"><i class="bi bi-heart-fill"></i></a> 50
+	                                    
 	                                </li>
 	                            </ul>
 	                        </div>
@@ -472,7 +441,7 @@
 	                            <figure>
 	                                <a href="#modal-dialog" class="btn_1 modal_popup">Place a bid</a>
 	                                <img src="img/items/item-1-placeholder.png" data-src="img/items/item-8.jpg" class="lazy" alt="" width="533" height="400">
-	                                <a href="detail-page.html" class="strip_info">
+	                                <a href="detail-page" class="strip_info">
 	                                    <div class="item_title">
 	                                        <h3>Lost Women</h3>
 	                                        <small>2.45 ETH</small>
@@ -481,7 +450,7 @@
 	                            </figure>
 	                            <ul>
 	                                <li>
-	                                    <a href="author.html" class="author">
+	                                    <a href="author" class="author">
 	                                        <div class="author_thumb">
 	                                            <figure>
 	                                                <img src="img/avatar-placeholder.png" data-src="img/avatar2.jpg" alt="" class="lazy" width="100" height="100"></figure>
@@ -490,7 +459,7 @@
 	                                    </a>
 	                                </li>
 	                                <li>
-	                                    <a href="#0" class="wish_bt"><i class="bi bi-heart-fill"></i></a> 50
+	                                    
 	                                </li>
 	                            </ul>
 	                        </div>
@@ -501,7 +470,7 @@
 	                            <figure>
 	                                <a href="#modal-dialog" class="btn_1 modal_popup">Place a bid</a>
 	                                <img src="img/items/item-1-placeholder.png" data-src="img/items/item-9.jpg" class="lazy" alt="" width="533" height="400">
-	                                <a href="detail-page.html" class="strip_info">
+	                                <a href="detail-page" class="strip_info">
 	                                    <div class="item_title">
 	                                        <h3>Hidden Fall</h3>
 	                                        <small>1.65 ETH</small>
@@ -510,7 +479,7 @@
 	                            </figure>
 	                            <ul>
 	                                <li>
-	                                    <a href="author.html" class="author">
+	                                    <a href="author" class="author">
 	                                        <div class="author_thumb veryfied"><i class="bi bi-check"></i>
 	                                            <figure>
 	                                                <img src="img/avatar-placeholder.png" data-src="img/avatar4.jpg" alt="" class="lazy" width="100" height="100"></figure>
@@ -519,7 +488,7 @@
 	                                    </a>
 	                                </li>
 	                                <li>
-	                                    <a href="#0" class="wish_bt"><i class="bi bi-heart-fill"></i></a> 50
+	                                    
 	                                </li>
 	                            </ul>
 	                        </div>
@@ -530,7 +499,7 @@
 	                            <figure>
 	                                <a href="#modal-dialog" class="btn_1 modal_popup">Place a bid</a>
 	                                <img src="img/items/item-1-placeholder.png" data-src="img/items/item-10.jpg" class="lazy" alt="" width="533" height="400">
-	                                <a href="detail-page.html" class="strip_info">
+	                                <a href="detail-page" class="strip_info">
 	                                    <div class="item_title">
 	                                        <h3>Clock Ocean</h3>
 	                                        <small>0.95 ETH</small>
@@ -539,7 +508,7 @@
 	                            </figure>
 	                            <ul>
 	                                <li>
-	                                    <a href="author.html" class="author">
+	                                    <a href="author" class="author">
 	                                        <div class="author_thumb">
 	                                            <figure>
 	                                                <img src="img/avatar-placeholder.png" data-src="img/avatar4.jpg" alt="" class="lazy" width="100" height="100"></figure>
@@ -548,7 +517,7 @@
 	                                    </a>
 	                                </li>
 	                                <li>
-	                                    <a href="#0" class="wish_bt"><i class="bi bi-heart-fill"></i></a> 50
+	                                    
 	                                </li>
 	                            </ul>
 	                        </div>
@@ -559,7 +528,7 @@
 	                            <figure>
 	                                <a href="#modal-dialog" class="btn_1 modal_popup">Place a bid</a>
 	                                <img src="img/items/item-1-placeholder.png" data-src="img/items/item-11.jpg" class="lazy" alt="" width="533" height="400">
-	                                <a href="detail-page.html" class="strip_info">
+	                                <a href="detail-page" class="strip_info">
 	                                    <div class="item_title">
 	                                        <h3>Hello World!</h3>
 	                                        <small>1.25 ETH</small>
@@ -568,7 +537,7 @@
 	                            </figure>
 	                            <ul>
 	                                <li>
-	                                    <a href="author.html" class="author">
+	                                    <a href="author" class="author">
 	                                        <div class="author_thumb">
 	                                            <figure>
 	                                                <img src="img/avatar-placeholder.png" data-src="img/avatar3.jpg" alt="" class="lazy" width="100" height="100">
@@ -578,7 +547,7 @@
 	                                    </a>
 	                                </li>
 	                                <li>
-	                                    <a href="#0" class="wish_bt"><i class="bi bi-heart-fill"></i></a> 50
+	                                    
 	                                </li>
 	                            </ul>
 	                        </div>
@@ -589,7 +558,7 @@
 	                            <figure>
 	                                <a href="#modal-dialog" class="btn_1 modal_popup">Place a bid</a>
 	                                <img src="img/items/item-1-placeholder.png" data-src="img/items/item-12.jpg" class="lazy" alt="" width="533" height="400">
-	                                <a href="detail-page.html" class="strip_info">
+	                                <a href="detail-page" class="strip_info">
 	                                    <div class="item_title">
 	                                        <h3>Brain Storm</h3>
 	                                        <small>2.95 ETH</small>
@@ -598,7 +567,7 @@
 	                            </figure>
 	                            <ul>
 	                                <li>
-	                                    <a href="author.html" class="author">
+	                                    <a href="author" class="author">
 	                                        <div class="author_thumb">
 	                                            <figure>
 	                                                <img src="img/avatar-placeholder.png" data-src="img/avatar1.jpg" alt="" class="lazy" width="100" height="100"></figure>
@@ -607,7 +576,7 @@
 	                                    </a>
 	                                </li>
 	                                <li>
-	                                    <a href="#0" class="wish_bt"><i class="bi bi-heart-fill"></i></a> 50
+	                                    
 	                                </li>
 	                            </ul>
 	                        </div>
@@ -633,82 +602,7 @@
 	</main>
 	<!-- /main -->
 
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<h3>Marketplace</h3>
-					<div class="links">
-						<ul>
-							<li><a href="index-author.html">Home</a></li>
-							<li><a href="explor-author.html">Explore</a></li>
-							<li><a href="login.html">Login</a></li>
-							<li><a href="register.html">Register</a></li>
-						
-						</ul>
-					</div>
-			
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<h3>Support Center</h3>
-					<div class="links">
-						<ul>
-							<li><a href="contacts-author.html">Contacts</a></li>
-							<li><a href="help-author.html">Help&faq</a></li>
-							<li><a href="connect-wallet.html">Connect Wallet</a></li>
-					
-						</ul>
-					</div>
-				</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<h3>Keep in touch</h3>						
-					<div id="newsletter">
-							<div id="message-newsletter"></div>
-							<form method="post" name="newsletter_form" id="newsletter_form">
-								<div class="form-group">
-									<input type="email" name="email_newsletter" id="email_newsletter" class="form-control" placeholder="Your email">
-									<button type="submit" id="submit-newsletter"><i class="bi bi-chevron-right"></i></button>
-								</div>
-							</form>
-						</div>
-						<div class="follow_us">
-							<ul>
-								<li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/twitter_icon.svg" alt="" class="lazy"></a></li>
-								<li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/facebook_icon.svg" alt="" class="lazy"></a></li>
-								<li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/instagram_icon.svg" alt="" class="lazy"></a></li>
-								<li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/youtube_icon.svg" alt="" class="lazy"></a></li>
-							</ul>
-						</div>
-					
-				</div>
-			</div>
-			<!-- /row-->
-			<hr>
-			<div class="row add_bottom_25">
-				<div class="col-md-6">
-					<ul class="footer-selector clearfix">
-						<li>
-							<div class="styled-select lang-selector">
-								<select>
-									<option value="English" selected>English</option>
-									<option value="French">French</option>
-									<option value="Spanish">Spanish</option>
-									<option value="Russian">Russian</option>
-								</select>
-							</div>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-6">
-					<ul class="additional_links">
-						<li><a href="#0">Terms and conditions</a></li>
-						<li>© 2022 OpenStory</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer>
+	<div th:insert="fragment/footer :: footer (aktif='explore-author')"/>
 	<!--/footer-->
 
 	<div id="toTop"></div><!-- Back to top button -->
